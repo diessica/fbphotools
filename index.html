@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Facebook Photools | Original size and source of Facebook photos</title>
+    <script type="text/javascript" src="photools.min.js"></script>
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="shortcut icon" href="fav.ico">
+    <meta name="description" content="Discover original size and source of Facebook photos!">
+    <meta property="og:title" content="Facebook Photools">
+    <meta property="og:site_name" content="Facebook Photools">
+    <meta property="og:url" content="http://diessica.com/web/photools">
+    <meta property="og:image" content="http://diessica.com/web/fbphotools/assets/share.png"/>
+    <meta property="og:description" content="Discover original size and source of Facebook photos!">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+</head>
+<body>
+<header>
+    <div>
+        <h3>Colaborate on <a href="https://github.com/diessicode/fbphotool">GitHub</a></h3>
+        <h1>Facebook Photools</h1>
+    </div>
+</header>
+<div>
+<h2>Original size</h2>
+<p>Useful to find the image of a Facebook profile in its larger size, including locked images for viewing.</p>
+<p class="example"><strong>Example</strong> → https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/c66.66.828.828/s160x160/536989_10151266339362308_1763871769_n.jpg
+<form name="originalForm" onsubmit="originalSize();">
+    <input type="url" pattern="https://(.*)/(.*)/(.*)\.jpg" name="imgUrl" placeholder="enter the (profile) photo url..." required>
+    <button>View photo in original size</button>
+</form>
+
+<h2>Source photo</h2>
+<p>Useful to find the source (page or profile) of any image. Remember that to access a post you must have access permission, and so this feature works best with photos of Facebook pages - are public.</p>
+<p class="example"><strong>Example</strong> → https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash4/1239043_10151640433322308_88764962_n.jpg</p>
+<form name="sourceForm" onsubmit="photoSource();">
+    <input type="url" name="imgUrl" placeholder="enter the photo url..." required>
+    <button>Find photo source</button>
+</form>
+
+    <footer>
+        <a href="index_pt-br.html">versão PT-BR</a>
+    </footer>
+</div>
+
+</body>
+</html>
