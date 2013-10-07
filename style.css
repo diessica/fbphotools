@@ -1,0 +1,109 @@
+* {
+margin: 0; padding: 0;
+border: 0;
+outline: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+background: #45619D;
+line-height: 1.8em;
+}
+
+@font-face {
+font-family: din;
+src: url("assets/din.woff") format("woff");
+}
+
+body, button, a, input {
+color: #8C9FCC;
+font-family: "din";
+}
+
+header, button { background:  #293A5F; }
+
+header div { padding: 1.5em; color: #45609D; text-transform: uppercase; }
+
+div {
+width: 85%;
+margin: auto;
+padding: 4em;
+counter-reset: item;
+}
+
+h1, h3 {
+font-size: 1.5em;
+color: #45619D;
+}
+
+h2 {
+color:#293A5F;
+font-size: 2.4em;
+text-transform: uppercase;
+}
+
+h2:before {
+content: counter(item) ". ";
+counter-increment: item;
+font-weight: bold;
+}
+
+
+h3 { float: right; }
+
+p { font-size: 1.2em; margin: 1em 0 1em 0;}
+
+a {
+font-weight: bold;
+text-decoration: none;
+}
+
+.example { font-size: 0.9em;}
+
+input {
+color: #999999;
+font-size: 1.2em;
+}
+
+input:focus, input:active { background: #334977; }
+
+input, button {
+width: 100%;
+padding: 1.3em;
+}
+
+button {
+text-transform: uppercase;
+font-size: 1em;
+margin-bottom: 3em;
+border: 1px solid #293A5F;
+}
+
+button:hover { background: #334977; }
+
+:focus, :hover { transition: all 0.3s ease; }
+
+footer {
+border-top: 1px dashed #28395F;
+padding-top: 2em;
+}
+
+@media (max-width: 40em) {
+    body { font-size: 85%;  }
+    div {
+        width: 100%;
+        padding: 2em;
+    }
+    h3 { display: none; }
+    h1 { text-align:center; }
+}
+
+@media (min-width: 41em) and (max-width: 70em) {
+    body { font-size: 90%; }
+    div {
+        width: 100%;
+        padding: 2.7em;
+    }
+}
