@@ -7,19 +7,21 @@
     box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Gafata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gafata'), local('Gafata-Regular'), url(http://themes.googleusercontent.com/static/fonts/gafata/v2/1_IZAK3uvysA0G_ed1qSXA.woff) format('woff');
+}
+
 body {
     background: #45619D;
     line-height: 1.8em;
 }
 
-@font-face {
-    font-family: din;
-    src: url("assets/din.woff") format("woff");
-}
-
 body, button, a, input {
     color: #8C9FCC;
-    font-family: "din";
+    font-family: "Gafata";
 }
 
 header, button { background:  #293A5F; }
