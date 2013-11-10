@@ -39,7 +39,6 @@ h1, h3 {
     font-size: 1.5em;
     color: #45619D;
 }
-
 h2 {
     color:#293A5F;
     font-size: 2.4em;
@@ -55,7 +54,14 @@ h2:before {
 
 h3 { float: right; }
 
-p { font-size: 1.2em; margin: 1em 0 1em 0;}
+p {
+    font-size: 1.2em;
+    margin: 1em 0 1em 0;
+}
+
+p:nth-of-type(1), p:nth-of-type(3) {
+  text-align: justify;
+}
 
 a {
     font-weight: bold;
@@ -102,7 +108,7 @@ footer {
     h1 { text-align:center; }
 }
 
-@media (min-width: 41em) and (max-width: 70em) {
+@media (min-width: 40em) and (max-width: 70em) {
     body { font-size: 90%; }
     div {
         width: 100%;
