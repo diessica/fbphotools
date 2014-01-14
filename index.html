@@ -24,7 +24,7 @@
 <h2>Original size</h2>
 <p>Useful to find the image of a Facebook profile in its <strong>larger size</strong>, including locked images for viewing.</p>
 <p class="example"><strong>Example</strong> → https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/c66.66.828.828/s160x160/536989_10151266339362308_1763871769_n.jpg
-<form name="originalForm" onsubmit="originalSize();">
+<form name="originalForm">
     <input type="url" pattern="https://(.*)/(.*)/(.*)\.jpg" name="imgUrl" placeholder="enter the (profile) photo url..." required>
     <button>View photo in original size</button>
 </form>
@@ -32,7 +32,7 @@
 <h2>Source photo</h2>
 <p>Useful to find <strong>the source</strong> (page or profile) of any image. Remember that to access a post you must have access permission, and so this feature works best with photos of Facebook pages - are public.</p>
 <p class="example"><strong>Example</strong> → https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash4/1239043_10151640433322308_88764962_n.jpg</p>
-<form name="sourceForm" onsubmit="photoSource();">
+<form name="sourceForm">
     <input type="url" name="imgUrl" placeholder="enter the photo url..." required>
     <button>Find photo source</button>
 </form>
