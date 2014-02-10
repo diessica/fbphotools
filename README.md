@@ -1,5 +1,4 @@
-# FB Photools ([Go to →](http://diessica.com/fbphotools))
-A **simple tool to do simple things**. With this tool, you can:
+# [FB Photools  →](http://diessica.com/fbphotools)
 + Discover the full size of locked profile photos of Facebook;
 + Discover the source page of a Facebook image (sent by a friend, for example).
 
