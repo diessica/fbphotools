@@ -1,6 +1,6 @@
 /*
 * Facebook Photools 1.0
-* Copyright 2013, Diéssica (github.com/diessicode)
+* Copyright 2013, Diéssica (github.com/diessica)
 * Description: Discover original size and source of Facebook photos
 */
 
